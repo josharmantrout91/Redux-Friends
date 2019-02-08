@@ -17,7 +17,8 @@ const initialState = {
   // deletingFriend: false,
   // friendDeleted: false,
   friends: [],
-  error: null
+  error: null,
+  showTab: friends
 };
 
 const reducer = (state = initialState, action) => {
